@@ -4,7 +4,7 @@
 1. `README.md`  
     This is the readme - Ignore this
 2. `cssresettest.html`   
-    This is the test file - check it out HERE
+    This is the test file - check it out [here!](https://rawcdn.githack.com/Afterlifepro/cssreset/main/cssresettest.html)
 3. `cssreset.css`  
     This is the css - copy-paste it into your code, but please keep atribution  
 
