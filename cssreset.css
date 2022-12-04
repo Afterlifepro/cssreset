@@ -1,0 +1,13 @@
+/* CSS RESET - CREDIT TO https://github.com/afterlifepro/ */
+/* reset the html and body to full height and enable dark mode */
+html, body { width: 100%; height: 100%; color-scheme: light dark; }
+/* remove all margin and padding */
+* { margin: 0; padding: 0; }
+/* reapply margin and padding to ul and ol in an article */
+article :where(ul, ol) { margin-block: 1em; padding-inline-start: 40px; }
+/* remove list decoration from uls and ols not in an article */
+:where(ul, ol):not(article :where(ol, ul)) { list-style: none; }
+/* make images 100% width so they are responsive */
+img { width: 100%; }
+/* ensure a tags are underlined */
+a { text-decoration: underline; }
